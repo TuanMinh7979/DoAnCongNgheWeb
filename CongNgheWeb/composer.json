@@ -1,0 +1,17 @@
+{
+    "name": "asus/cong-nghe-web",
+    "require": {
+      "noahbuscher/macaw": "dev-master",
+      "illuminate/database": "^8.70",
+        "league/plates": "^3.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files": [
+            "helpers.php"
+        ]
+
+    }
+}
